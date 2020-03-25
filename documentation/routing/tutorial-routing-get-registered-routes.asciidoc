@@ -1,6 +1,6 @@
 ---
 title: Getting Registered Routes
-order: 10
+order: 11
 layout: page
 ---
 
@@ -14,4 +14,4 @@ Router router = UI.getCurrent().getRouter();
 List<RouteData> routes = router.getRegistry().getRegisteredRoutes();
 ----
 
-* The `RouteData` object contains all the relevant information about the defined route, such as the URL, parameters, and parent layout.
+* The `RouteData` object contains all the relevant information about the defined route, such as the URL template, parameters, and parent layouts.
